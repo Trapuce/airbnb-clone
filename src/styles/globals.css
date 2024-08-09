@@ -18,8 +18,9 @@
 
 
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@layer components {
+  .button{
+       @apply border hover:shadow-lg active:scale-95 active:bg-gray-100 transition transform duration-100 ease-out cursor-pointer rounded-full px-4 py-2
+
   }
 }
